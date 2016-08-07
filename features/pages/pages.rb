@@ -11,6 +11,6 @@ require 'pdf/reader'
 include RSpec::Matchers
 
 require File.dirname(__FILE__) + "/../../features/pages/config/driver_config"
-require File.dirname(__FILE__) + "/../../features/pages/justice_pages/parser_pdf"
+require File.dirname(__FILE__) + "/../../features/pages/parse_pages/parser_pdf"
 
 include Automation
